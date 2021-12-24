@@ -1,5 +1,5 @@
 <script>
-  import { username, user } from './user';
+  import { user,username } from './user';
 
   function signout() {
     user.leave();
@@ -8,7 +8,7 @@
 </script>
 
 <header>
-<h1>🔫💬</h1>
+<h1>🐔💬</h1>
   {#if $username}
     <div class="user-bio">
       
@@ -20,6 +20,6 @@
 
     {:else}
 
-      <h3>Gun.js Chat</h3>
+      <h3>Nuggz Board</h3>
   {/if}
 </header>
