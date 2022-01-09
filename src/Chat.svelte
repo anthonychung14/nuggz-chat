@@ -6,7 +6,7 @@
   import Login from "./Login.svelte";
   import { user,username } from "./user";
   const db = new GUN({
-    peers: ["http://localhost:8765/gun"],
+    peers: ["https://nuggz-gun.herokuapp.com:8080"],
   });
 
   let newMessage;
